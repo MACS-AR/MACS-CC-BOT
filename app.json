@@ -1,0 +1,71 @@
+{
+    "name": "MACS Checker Bot",
+    "description": "فاحص فيزا سريع جدا وقوي تحكم تلجرام",
+    "logo": "https://telegra.ph/file/e4b35c210743a74277fef.jpg",
+    "keywords": [
+        "Telegram",
+        "Bot",
+        "Modular"
+    ],
+    "website": "https://telegram.me/MACS37",
+    "repository": "https://github.com/MACS-AR/MACS-CC-BOT",
+    "env": {
+        "توكن البوت": {
+            "description": "ادخل علي تلجرام واعمل بوت هنا @Botfather",
+            "value": "",
+            "required": true
+        },
+        "ايدي الادمن": {
+            "description": "ادخل ايدي الادمن.",
+            "value": "",
+            "required": true
+        },
+        "جروب التخزين": {
+            "description": "ادخل معرف جروب التخزين",
+            "value": "",
+            "required": true
+        },
+        "DB_HOST": {
+            "description": "رابط قاعدة البيانات",
+            "value": "",
+            "required": true
+        },
+        "DB_USERNAME": {
+            "description": "يوزر قاعدة البيانات",
+            "value": "",
+            "required": true
+        },
+        "DB_PASSWORD": {
+            "description": "باسورد قاعدة البيانات",
+            "value": "",
+            "required": true
+        },
+        "DB_NAME": {
+            "description": "اسم قاعدة البيانات",
+            "value": "",
+            "required": true
+        },
+        "ANTISPAM_TIMER": {
+            "description": "وقت الفحص كل كم ثانيه",
+            "value":"20",
+            "required": true
+        },
+        "SK_KEYS": {
+            "description": "سيب دي فاضيه او ادخل اي باسورد يكون رقم ,",
+            "value": "",
+            "required": false
+        },
+        "TIMEZONE": {
+            "description": "Your Preffered TimeZone",
+            "value": "Asia/Kolkata",
+            "required": false
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
